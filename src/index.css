@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #FAF7F2;
+  color: #292929;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+}
+
+.font-satisfy {
+  font-family: 'Satisfy', cursive;
+}
+
+.btn-warning {
+  background-color: #FDC913 !important;
+  border-color: #FDC913 !important;
+  color: #292929 !important;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.btn-warning:hover {
+  background-color: #e0b10d !important;
+}
+
+.form-control:focus, .form-check-input:focus {
+  border-color: #FDC913;
+  box-shadow: 0 0 0 0.25rem rgba(253, 201, 19, 0.25);
+}
